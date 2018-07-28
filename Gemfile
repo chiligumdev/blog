@@ -8,6 +8,8 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Jquery
+gem 'jquery-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -28,8 +30,24 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
+# Local ENVs variables
+gem 'figaro'
+# Small controllers
+gem 'responders'
+# Best form builder
+gem 'simple_form'
+# Users Auth
+gem 'devise'
 # Police the police in code
 gem 'rubocop'
+# Best search
+gem 'pg_search'
+# Paperclip
+gem 'paperclip', '5.1.0'
+# Paginate records gem
+gem 'will_paginate', '~> 3.1.0'
+# Decorators
+gem 'draper'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
