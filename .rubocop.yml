@@ -3,7 +3,7 @@ AllCops:
     - db/**/**
     - bin/**
     - config/**/**
-    - test/**
+    - test/**/**
 Metrics/LineLength:
   Max: 160
 Metrics/MethodLength:
