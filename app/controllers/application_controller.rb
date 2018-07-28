@@ -1,4 +1,4 @@
-require "application_responder"
+require 'application_responder'
 
 # Main controller
 class ApplicationController < ActionController::Base
